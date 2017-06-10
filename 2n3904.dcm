@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N3904
+D 6A Ic, 80V Vce, Silicon 27MHz RF Power Transistors NPN, SOT-23
+K RF Power Transistor NPN 
+$ENDCMP
+#
+#End Doc Library

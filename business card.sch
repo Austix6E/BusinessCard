@@ -1,0 +1,282 @@
+EESchema Schematic File Version 2
+LIBS:2n3904
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:business card-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 2N3904 Q?
+U 1 1 593A081A
+P 5800 2700
+F 0 "Q?" H 6000 2775 50  0000 L CNN
+F 1 "2N3904" H 6000 2700 50  0000 L CNN
+F 2 "SOT-23" H 6000 2625 50  0000 L CIN
+F 3 "" H 5800 2700 50  0000 L CNN
+	1    5800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2N3904 Q?
+U 1 1 593A08EE
+P 5250 4250
+F 0 "Q?" H 5450 4325 50  0000 L CNN
+F 1 "2N3904" H 5450 4250 50  0000 L CNN
+F 2 "SOT-23" H 5450 4175 50  0000 L CIN
+F 3 "" H 5250 4250 50  0000 L CNN
+	1    5250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2N3904 Q?
+U 1 1 593A0925
+P 5800 3900
+F 0 "Q?" H 6000 3975 50  0000 L CNN
+F 1 "2N3904" H 6000 3900 50  0000 L CNN
+F 2 "SOT-23" H 6000 3825 50  0000 L CIN
+F 3 "" H 5800 3900 50  0000 L CNN
+	1    5800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2N3904 Q?
+U 1 1 593A09DB
+P 2450 3750
+F 0 "Q?" H 2650 3825 50  0000 L CNN
+F 1 "2N3904" H 2650 3750 50  0000 L CNN
+F 2 "SOT-23" H 2650 3675 50  0000 L CIN
+F 3 "" H 2450 3750 50  0000 L CNN
+	1    2450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 593A0D15
+P 6000 3350
+F 0 "#PWR?" H 6000 3100 50  0001 C CNN
+F 1 "GND" H 6000 3200 50  0000 C CNN
+F 2 "" H 6000 3350 50  0000 C CNN
+F 3 "" H 6000 3350 50  0000 C CNN
+	1    6000 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 593A0D31
+P 5950 4550
+F 0 "#PWR?" H 5950 4300 50  0001 C CNN
+F 1 "GND" H 5950 4400 50  0000 C CNN
+F 2 "" H 5950 4550 50  0000 C CNN
+F 3 "" H 5950 4550 50  0000 C CNN
+	1    5950 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VDD #PWR?
+U 1 1 593A0D69
+P 6400 3600
+F 0 "#PWR?" H 6400 3450 50  0001 C CNN
+F 1 "VDD" H 6400 3750 50  0000 C CNN
+F 2 "" H 6400 3600 50  0000 C CNN
+F 3 "" H 6400 3600 50  0000 C CNN
+	1    6400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 1k
+U 1 1 593A0EEA
+P 6100 2450
+F 0 "1k" V 6180 2450 50  0000 C CNN
+F 1 "R" V 6100 2450 50  0000 C CNN
+F 2 "" V 6030 2450 50  0000 C CNN
+F 3 "" H 6100 2450 50  0000 C CNN
+	1    6100 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L R 1k
+U 1 1 593A0F9C
+P 6150 3650
+F 0 "1k" V 6230 3650 50  0000 C CNN
+F 1 "R" V 6150 3650 50  0000 C CNN
+F 2 "" V 6080 3650 50  0000 C CNN
+F 3 "" H 6150 3650 50  0000 C CNN
+	1    6150 3650
+	0    1    1    0   
+$EndComp
+Text Notes 6950 1450 0    60   ~ 0
+SR LATCH\n
+$Comp
+L 2N3904 Q?
+U 1 1 593A1F9D
+P 5250 3050
+F 0 "Q?" H 5450 3125 50  0000 L CNN
+F 1 "2N3904" H 5450 3050 50  0000 L CNN
+F 2 "SOT-23" H 5450 2975 50  0000 L CIN
+F 3 "" H 5250 3050 50  0000 L CNN
+	1    5250 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR?
+U 1 1 593B9097
+P 6400 2400
+F 0 "#PWR?" H 6400 2250 50  0001 C CNN
+F 1 "VDD" H 6400 2550 50  0000 C CNN
+F 2 "" H 6400 2400 50  0000 C CNN
+F 3 "" H 6400 2400 50  0000 C CNN
+	1    6400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 10k
+U 1 1 593B918E
+P 4450 3300
+F 0 "10k" V 4530 3300 50  0000 C CNN
+F 1 "R" V 4450 3300 50  0000 C CNN
+F 2 "" V 4380 3300 50  0000 C CNN
+F 3 "" H 4450 3300 50  0000 C CNN
+	1    4450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 10k
+U 1 1 593B91FE
+P 4650 3300
+F 0 "10k" V 4730 3300 50  0000 C CNN
+F 1 "R" V 4650 3300 50  0000 C CNN
+F 2 "" V 4580 3300 50  0000 C CNN
+F 3 "" H 4650 3300 50  0000 C CNN
+	1    4650 3300
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7400 5600 7400 1350
+Wire Notes Line
+	7400 1350 4000 1350
+Wire Notes Line
+	4000 1350 4000 5600
+Wire Notes Line
+	4000 5600 7400 5600
+Wire Wire Line
+	5900 4100 5900 4550
+Wire Wire Line
+	5350 4550 5900 4550
+Wire Wire Line
+	5900 4550 5950 4550
+Wire Wire Line
+	5350 4450 5350 4550
+Connection ~ 5900 4550
+Wire Wire Line
+	5350 4050 5350 3650
+Wire Wire Line
+	4650 3650 5350 3650
+Wire Wire Line
+	5350 3650 5900 3650
+Wire Wire Line
+	5900 3650 6000 3650
+Wire Wire Line
+	5900 2900 5900 3350
+Wire Wire Line
+	5350 3350 5900 3350
+Wire Wire Line
+	5900 3350 6000 3350
+Wire Wire Line
+	5350 3350 5350 3250
+Wire Wire Line
+	5350 2850 5350 2450
+Wire Wire Line
+	4450 2450 5350 2450
+Wire Wire Line
+	5350 2450 5900 2450
+Wire Wire Line
+	5900 2450 5950 2450
+Wire Wire Line
+	5900 2450 5900 2500
+Connection ~ 5900 3350
+Connection ~ 5900 3650
+Connection ~ 5900 2450
+Wire Wire Line
+	4650 3150 4650 2700
+Wire Wire Line
+	4650 2700 5600 2700
+Wire Wire Line
+	4450 3450 4450 3900
+Wire Wire Line
+	4450 3900 5600 3900
+Wire Wire Line
+	4450 2450 4450 3150
+Wire Wire Line
+	4650 3450 4650 3650
+Wire Wire Line
+	6300 3650 6400 3650
+Wire Wire Line
+	6400 3650 6400 3600
+Wire Wire Line
+	6400 2400 6400 2450
+Wire Wire Line
+	6400 2450 6250 2450
+Wire Notes Line
+	6350 4650 6350 3550
+Wire Notes Line
+	6350 3550 4950 3550
+Wire Notes Line
+	4950 3550 4950 4650
+Wire Notes Line
+	4950 4650 6350 4650
+Wire Notes Line
+	4950 3450 6350 3450
+Wire Notes Line
+	4950 3450 4950 2350
+Wire Notes Line
+	4950 2350 6350 2350
+Wire Notes Line
+	6350 2350 6350 3450
+Connection ~ 5350 2450
+Wire Wire Line
+	5900 3650 5900 3700
+Connection ~ 5350 3650
+Text Notes 4950 4650 0    60   ~ 0
+NOR\n
+Text Notes 4950 3450 0    60   ~ 0
+NOR\n
+$EndSCHEMATC
