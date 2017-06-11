@@ -1,4 +1,4 @@
-update=Thu 08 Jun 2017 09:29:08 PM CDT
+update=Sat 10 Jun 2017 06:45:05 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=pspice

@@ -1,0 +1,51 @@
+* /home/acole/Documents/Development/Projects/BusinessCard/business card.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Sat 10 Jun 2017 09:03:50 PM CDT
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+VS1  VDD 0 DC 5
+VS2  C 0 PULSE(0 5 0 0 0 5m 10m)
+VS3  J 0 PULSE(0 5 6m 0 0 10m 0)
+VS4  K 0 PULSE(0 5 56m 0 0 10m 0)
+
+Q1  VDD Q Net-_Q1-Pad3_ QNPN		
+Q2  Net-_Q1-Pad3_ C Net-_Q2-Pad3_ QNPN		
+Q3  Net-_Q2-Pad3_ J Net-_Q3-Pad3_ QNPN		
+Q6  Net-_Q5-Pad3_ Qn Net-_Q6-Pad3_ QNPN		
+Q5  Net-_Q4-Pad3_ C Net-_Q5-Pad3_ QNPN		
+Q4  VDD K Net-_Q4-Pad3_ QNPN		
+Q9  Q Net-_Q9-Pad2_ 0 QNPN		
+Q7  Q Net-_Q7-Pad2_ 0 QNPN		
+Q8  Qn Net-_Q8-Pad2_ 0 QNPN		
+Q10  Qn Net-_Q10-Pad2_ 0 QNPN		
+R1  Net-_Q3-Pad3_ 0 10k		
+R2  Net-_Q6-Pad3_ 0 10k		
+R8  VDD Qn 1k	 	
+R7  VDD Q 1k		
+R4  Net-_Q8-Pad2_ Net-_Q6-Pad3_ 1k		
+R3  Net-_Q7-Pad2_ Net-_Q3-Pad3_ 1k		
+R5  Q Net-_Q10-Pad2_ 10k		
+R6  Net-_Q9-Pad2_ Qn 10k
+
+* dummy loads
+R9  Q 0 10k
+R10  Qn 0 10k		
+
+.MODEL QNPN npn
++IS=1.26532e-10 BF=206.302 NF=1.5 VAF=1000
++IKF=0.0272221 ISE=2.30771e-09 NE=3.31052 BR=20.6302
++NR=2.89609 VAR=9.39809 IKR=0.272221 ISC=2.30771e-09
++NC=1.9876 RB=5.8376 IRB=50.3624 RBM=0.634251
++RE=0.0001 RC=2.65711 XTB=0.1 XTI=1
++EG=1.05 CJE=4.64214e-12 VJE=0.4 MJE=0.256227
++TF=4.19578e-10 XTF=0.906167 VTF=8.75418 ITF=0.0105823
++CJC=3.76961e-12 VJC=0.4 MJC=0.238109 XCJC=0.8
++FC=0.512134 CJS=0 VJS=0.75 MJS=0.5
++TR=6.82023e-08 PTF=0 KF=0 AF=1
+
+.TRAN .1m 100m 
+
+.end
